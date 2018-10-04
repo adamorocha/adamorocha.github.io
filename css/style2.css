@@ -3,9 +3,17 @@
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
+html {
+    height:100vh;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+body, .wrapper, #content {
+	height:100%;
+	
 }
 
 p {
@@ -42,6 +50,12 @@ a, a:hover, a:focus {
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
+}
+
+#framebody {
+	height:90%;
+	width:101%;
+	border:0;
 }
 
 /* ---------------------------------------------------
