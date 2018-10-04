@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Collapsible sidebar using Bootstrap 3</title>
+
+        <!-- Bootstrap CSS CDN -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+
+		 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+
+<!--Remover mais tarde para folha externa-->
+
+
+<style>
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+		
+.linkspanelatento div img {
+		height:70px;
+		width:150px;
+		display:block;
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-left:auto;
+		margin-right:auto;
+	
+}
+.frameurgente {
+		display:block;
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-left:auto;
+		margin-right:auto;
+}
+</style>
+
+
+    </head>
+	
+	<body>
+	
+	<div class="container " style="width:100%">
+	
+		
+			<!--Carrousel-->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000" style="width:100%;margin-bottom:30px">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			      <li data-target="#myCarousel" data-slide-to="1"></li>
+			      <li data-target="#myCarousel" data-slide-to="2"></li>
+			    </ol>
+		
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
+			      <div class="item active">
+			        <img src="img/banners/piecemaker1.png"  style="width:100%;">
+			      </div>
+			
+			      <div class="item">
+			        <img src="img/banners/piecemaker2.png"  style="width:100%;">
+			      </div>
+			    
+			      <div class="item">
+			        <img src="img/banners/piecemaker3.png"  style="width:100%;">
+			      </div>
+			    </div>
+			    
+	      	</div>
+		
+	
+	
+	
+	
+		<div class="alert alert-warning">
+			<h3>Últimas Atualizações</h3>
+			
+		</div>
+							
+			
+		<div class="row " style="width:101%">
+		
+		
+		
+		<h2><center>&emsp;Mensagens Urgentes</center></h2>
+		
+					<!--MENSAGENS URGENTES HARDWARE-->
+					<div class="col-sm-6">
+						<h5><center>Hardware</center></h5><hr>
+				  		<IFRAME class="frameurgente" name=I1 align=center src="http://bookinfo.atento/zs/bematech/hardware/news/principal_oper.asp" style="width:100%" frameBorder=0 scrolling=yes target="_self" id="I1"></IFRAME>
+				  	</div>
+				  		  	
+				  	<!--MENSAGENS URGENTES TEF-->
+				  	<div class="col-sm-6">
+				  		<h5><center>TEF</center></h5><hr>
+				  	<IFRAME class="frameurgente" name=I2 align=center src="http://bookinfo.atento/zs/bematech/tef/news/principal_oper.asp" style="width:100%" frameBorder=0 scrolling=yes target="_self" id="I2"></IFRAME>
+				  	</div> 
+			</div>
+
+
+
+
+ 
+	</div>
+	
+        <!-- jQuery CDN -->
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <!-- Bootstrap Js CDN -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- jQuery Custom Scroller CDN -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#sidebar").mCustomScrollbar({
+                    theme: "minimal"
+                });
+
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar, #content').toggleClass('active');
+                    $('.collapse.in').toggleClass('in');
+                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                });
+            });
+        </script>
+
+	
+	
+	</body>
+</html>
