@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <script src="../../js/jquery.min.js"></script>
+  <script src="../../js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+  
+  
+ 
+     
+<style>
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+h3 a{
+	color:#3d7a3e;
+	text-decoration:none;
+}
+h3 a:hover{
+	color:#54ad56;
+	text-decoration:none;
+}
+h3 a:visited{
+	color:#3d7a3e;
+	text-decoration:none;
+}
+h3 a:focus{
+	color:#444444;
+	text-decoration:none;
+}
+a {
+	text-decoration:none;
+	
+}
+
+	
+</style>
+
+  
+</head>
+<body>
+
+		<div class="panel-group">
+    		<div class="panel panel-default">
+     			<div class="panel-heading">
+        		 <h2 class="panel-title">
+          		  <a data-toggle="collapse" href="#iniciais" class="proc_iniciais">Procedimentos Iniciais</a>
+        		 </h2>
+      			</div>
+      			<div id="iniciais" class="panel-collapse collapse">
+        			<div class="panel-body">
+        			
+        			<p>- Identificar se a ligação deve ser atendida pela Central de Atendimento TEF (Vide procedimentos do Book); 
+					<br>- Caso não, Transferir/Orientar cliente ao setor correto, nesse caso não é necessário cadastro/confirmação cadastral nem protocolo de atendimento.
+					</p>
+					
+					<p>- Caso o cliente entre em contato para solicitar um número de telefone de um dos atendimentos paralelos à Bematech (que constam na lista de telefones úteis no Book), não direcionar à Pesquisa de Satisfação. Lembrando que o não direcionamento somente é válido quando apenas o telefone é informado. 
+					<br>- Nos casos em que a ligação cair ou estiver muda, tabular como não identificada.
+					</p>
+					
+					<p>Caso identifique que o cliente deve ser atendido por nossa Central:
+					<br>Em casos de novos clientes, deverão ser confirmados e verbalizados os dados: 
+					<br>O cadastro do cliente (contato feito pela primeira vez) deve ser feito com:
+					<br>&emsp;&bull; CNPJ
+					<br>&emsp;&bull; RAZÃO SOCIAL
+					<br>&emsp;&bull; ENDEREÇO DO ESTABELECIMENTO
+					<br>&emsp;&bull; 1 TELEFONE FIXO
+					<br>&emsp;&bull; 1 TELEFONE CELULAR
+					<br>&emsp;&bull; E-MAIL
+					</p>
+					
+					<p>A partir de agora a confirmação cadastral (do segundo contato em diante) deve ser feita com os seguintes dados.
+					
+					<br>&emsp;&bull; CNPJ
+					<br>&emsp;&bull; RAZÃO SOCIAL
+					<br>&emsp;&bull; 1 TELEFONE FIXO
+					<br>&emsp;&bull; 1 TELEFONE CELULAR
+					</p>
+					
+					<p><strong>Obs:</strong> Caso identifique que esteja faltando alguma informação no cadastro, confirmar com o cliente e realizar a inclusão.</p>
+					
+					<p>- Após a confirmação dos dados/Cadastro imediatamente informe ao cliente o número do protocolo gerado no CRM em 100% dos atendimentos.</p>
+					
+					<p>- Identifique o histórico de atendimento do cliente através da ferramenta CRM e prossiga com o suporte.</p>
+					
+					<p>- Em caso de clientes ativos, é necessário somente a confirmação de CNPJ e Razão Social.</p>
+					
+					<p>- Nos casos em que o cliente não possui telefone próximo ao computador a ser configurado, oferecer a opção ativo somente caso o cliente questione e somente após informar o supervisor, para que o mesmo autorize a exceção.</p>
+					
+					<p>- Caso seja necessário entrar em contato com o nível 2, verbalizar para o cliente, "Senhor(a), vou entrar em contato com meu segundo nível para verificar algumas informações. Caso seja necessário, o senhor será transferido para realização de outros procedimentos".</p>
+					
+					<p>OBS: Esta verbalização deverá ser efetuada com base nos dados do site da Receita Federal.</p>
+					
+					<p>Se o cliente estiver falando ou relatando algo referente ao seu problema ou solicitação e você precisar interrompê-lo, faça-o de maneira cortês e educada.</p>
+					
+					<p>Ao Final do atendimento verbalizar a transferência para a pesquisa de satisfação e realizá-la.</p>
+					
+					<p>Caso o problema do cliente não seja resolvido através do suporte 0800, é necessário encaminhar um book à célula de BackOffice, contendo todos os dados do cliente e a descrição do problema.</p>
+					
+					
+					<br><strong>CALLBACK:</strong>
+					<br>Quando houver um agendamento realizado pelo cliente na URA em decorrência de fila para atendimento, este agendamento voltará em formato de call-back de acordo com o horário que o cliente solicitou. 
+					<br>Estas chamadas serão identificadas através do “sussurro” CALLBACK e deverá seguir a fraseologia abaixo: 
+					
+					<br>“Bom dia, meu nome é XXXXXX falo do suporte técnico da Bematech, estamos retornando o contato conforme agendamento em nosso atendimento eletrônico.”. 
+					<br>“Como podemos ajuda-lo?” 
+					
+					
+					<br>Caso o contato seja de uma empresa parceira para passar posicionamento pendente de tratativa, exemplo: NTK, auttar e etc, direcionar ligação para o N2. 
+        			
+        			</div>
+        			<div class="panel-footer">
+        			
+        			<strong>Script (Sugestão)</strong>
+					<br>
+					<br><strong>Operador:</strong> Bem vindo á Bematech, (seu nome), bom dia/tarde/noite
+					<br><strong>Operador:</strong> Com quem eu falo, por gentileza?
+					<br><strong>Operador:</strong> Em que posso ajudá-lo(a)? 
+					<br><strong>Operador:</strong> Sr.(a), informe o CNPJ da empresa.
+					<br><strong>Operador:</strong> Sr.(a), confirme a Razão Social de sua empresa.
+					<br><strong>Operador:</strong> Sr. anote por gentileza, o número de protocolo desde atendimento.
+        			
+        			
+        			</div>
+      			</div>
+   			 </div>
+  		</div>
+	
+	<div class="container alert alert-success" style="width:100%">
+
+		<!--EXPRESS -->
+  	 		<h3><a data-toggle="collapse" href="#express">Express</a></h3>
+  	 		 <hr>
+  				<div>
+					<div id="express" class="panel-collapse collapse">
+  			 		 <p>Escreva na linha baixo para realizar a pesquisa:</p>
+  						<div class="input-group">
+	  			 		 <input class="form-control" id="filtroexpress" type="text" placeholder="Pesquisar">
+ 		 		  		  <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>    
+  						</div>
+  			 			<br>
+			 		 <ul class="list-group" id="listaexpress">
+			  		  <li class="list-group-item">First item</li>
+					  <li class="list-group-item">Second item</li>
+				      <li class="list-group-item">Third item</li>
+				      <li class="list-group-item">Fourth</li>
+					  <li class="list-group-item">Alelo Auto - Requisitos</li>
+					  <li class="list-group-item">Abertura de O.S – Pinpad com número de série ilegível ou inexistente</li>
+					  <li class="list-group-item">Abertura de O.S - Número Lógico</li>
+					  <li class="list-group-item">Abertura de O.S - Substituição de Pinpad</li>
+					  <li class="list-group-item">Adquirentes Aceitas no TEF Express</li>
+			  		 </ul>  
+  					</div>
+  				</div>
+  		<!--/EXPRESS-->
+
+		<!--TOTAL  -->
+		  <h3><a data-toggle="collapse" href="#total">Total<a></a></h3>
+		  	<hr>
+			 	<div>
+					<div id="total" class="panel-collapse collapse">
+				  	 <p>Escreva na linha baixo para realizar a pesquisa:</p>
+						<div class="input-group">
+						 <input class="form-control" id="filtrototal" type="text" placeholder="Pesquisar">
+						  <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>    
+						</div>
+				  		<br>
+					 <ul class="list-group" id="listatotal">
+					  <li class="list-group-item">First item</li>
+					  <li class="list-group-item">Second item</li>
+					  <li class="list-group-item">Third item</li>
+					  <li class="list-group-item">Fourth</li>
+					 </ul>  
+					</div>
+				</div>
+		<!--/TOTAL-->
+
+		<!--TURBO  -->
+		  <h3><a data-toggle="collapse" href="#turbo">Turbo<a></a></h3>
+		  	<hr>
+			 	<div>
+					<div id="turbo" class="panel-collapse collapse">
+				  	 <p>Escreva na linha baixo para realizar a pesquisa:</p>
+						<div class="input-group">
+						 <input class="form-control" id="filtroturbo" type="text" placeholder="Pesquisar">
+						  <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>    
+						</div>
+				  		<br>
+					 <ul class="list-group" id="listaturbo">
+					  <li class="list-group-item">First item</li>
+					  <li class="list-group-item">Second item</li>
+					  <li class="list-group-item">Third item</li>
+					  <li class="list-group-item">Fourth</li>
+					 </ul>  
+					</div>
+				</div>
+		<!--/TURBO-->
+		
+		<!--SIMPLES -->
+		  <h3><a data-toggle="collapse" href="#simples">Simples<a></a></h3>
+			 	<div>
+					<div id="simples" class="panel-collapse collapse">
+					 
+					 <!--Tef Simples só possui um item, não é encessário exibir pesquisa-->
+				  	 <!--<p>Escreva na linha baixo para realizar a pesquisa:</p>
+						<div class="input-group">
+						 <input class="form-control" id="filtrosimples" type="text" placeholder="Pesquisar">
+						  <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>    
+						</div>
+				  		<br>-->
+					 <ul class="list-group" id="listasimples">
+					  <li class="list-group-item">First item</li>
+					 </ul>  
+					</div>
+				</div>
+		<!--/SIMPLES-->
+
+</div><!--/CONTAINER-->
+
+
+
+
+
+
+
+
+
+
+<script>
+
+//* Filtro Express
+$(document).ready(function(){
+  $("#filtroexpress").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#listaexpress li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+//* Filtro Express Hospedado 
+$(document).ready(function(){
+  $("#filtro2").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#lista2 li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+//* Filtro Total
+$(document).ready(function(){
+  $("#filtrototal").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#listatotal li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+//* Filtro Turbo
+$(document).ready(function(){
+  $("#filtroturbo").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#listaturbo li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+//* Filtro Simples
+$(document).ready(function(){
+  $("#filtrosimples").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#listasimples li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+
+</script>
+  <!-- Scripts Acordeon -->
+  <link rel="stylesheet" href="../../css/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="../../js/jquery-1.12.4.js"></script>
+  <script src="../../jquery-ui.js"></script>
+
+</body>
+</html>
