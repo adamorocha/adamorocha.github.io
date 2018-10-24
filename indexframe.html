@@ -18,7 +18,6 @@
 
 <!--Remover mais tarde para folha externa-->
 
-
 <style>
 
 body {
@@ -27,23 +26,39 @@ body {
 
 		
 .linkspanelatento div img {
-		height:70px;
-		width:150px;
-		display:block;
-		margin-top:20px;
-		margin-bottom:20px;
-		margin-left:auto;
-		margin-right:auto;
+	height:70px;
+	width:150px;
+	display:block;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.frameurgente {
+	display:block;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#myCarousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center}
+#div_rodape_capa {
+	border-top-style:solid;
+	border-top-width:1px;
+	border-top-color:gray;
+	text-align:center;
+	font-size:35px;
+	margin-top:30px
 	
 }
-.frameurgente {
-		display:block;
-		margin-top:20px;
-		margin-bottom:20px;
-		margin-left:auto;
-		margin-right:auto;
-}
 </style>
+
 
 
     </head>
@@ -53,8 +68,9 @@ body {
 	<div class="container " style="width:100%">
 	
 		
-			<!--Carrousel-->
-			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000" style="width:100%;margin-bottom:30px">
+			<!--Carrousel Banner-->
+			<center>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000" style="margin-bottom:30px">
 			    <!-- Indicators -->
 			    <ol class="carousel-indicators">
 			      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -65,35 +81,40 @@ body {
 			    <!-- Wrapper for slides -->
 			    <div class="carousel-inner">
 			      <div class="item active">
-			        <img src="img/banners/piecemaker1.png"  style="width:100%;">
+			        <img src="img/banners/piecemaker1.png" >
 			      </div>
 			
 			      <div class="item">
-			        <img src="img/banners/piecemaker2.png"  style="width:100%;">
+			        <img src="img/banners/piecemaker2.png"  >
 			      </div>
 			    
 			      <div class="item">
-			        <img src="img/banners/piecemaker3.png"  style="width:100%;">
+			        <img src="img/banners/piecemaker3.png" >
 			      </div>
 			    </div>
 			    
 	      	</div>
+			</center>
+			<!--Ultimas Atualizações-->
 		
-	
-	
-	
-	
-		<div class="alert alert-warning">
-			<h3>Últimas Atualizações</h3>
+			<div class="panel-group">
+			    <div class="panel panel-warning">
+			      <div class="panel-heading">
+			        <h4 class="panel-title">
+			          <a data-toggle="collapse" href="#collapse1">Últimas Atualizações</a>
+			        </h4>
+			      </div>
+			      <div id="collapse1" class="panel-collapse collapse">
+			        <div class="panel-body">Corpo Atualizações</div>
+			        <div class="panel-footer text-right"><a href="#" class="alert-link">+ Ver Mais</a></div>
+			      </div>
+			    </div>
+			  </div>				
+
 			
-		</div>
-							
-			
-		<div class="row " style="width:101%">
+			<div class="row " style="width:101%">
 		
-		
-		
-		<h2><center>&emsp;Mensagens Urgentes</center></h2>
+				<h2><center>&emsp;Mensagens Urgentes</center></h2>
 		
 					<!--MENSAGENS URGENTES HARDWARE-->
 					<div class="col-sm-6">
@@ -107,6 +128,11 @@ body {
 				  	<IFRAME class="frameurgente" name=I2 align=center src="http://bookinfo.atento/zs/bematech/tef/news/principal_oper.asp" style="width:100%" frameBorder=0 scrolling=yes target="_self" id="I2"></IFRAME>
 				  	</div> 
 			</div>
+			
+			<div id="div_rodape_capa">
+				<i class="fas fa-users"></i>&emsp;<i class="fas fa-envelope-open-text"></i>&emsp;<i class="fas fa-globe-americas"></i>
+			</div>
+
 
 
 
