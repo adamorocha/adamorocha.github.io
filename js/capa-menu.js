@@ -744,24 +744,6 @@ $(document).ready(function() {
 					tSimples 
 						.addItem("Nome", "Link");
 						
-   // Pasta Backoffice
-	var Backoffice = 
-        	menu.addFolder("Backoffice");
-        					
-			Backoffice 
-				.addItem("Atraso de O.S", "Link")
-				.addItem("Cancelamento de O.S", "Link")
-				.addItem("Cliente Corporativos", "Link")			
-				.addItem("Exceções TEF", "Link")      	
-				.addItem("Exceções TEF Cancelamento", "Link")
-				.addItem("Exceções SAC", "Link")
-				.addItem("Exceções SAT", "Link")
-				.addItem("Reclamações", "Link")
-				.addItem("SAC Corporate", "Link")
-				.addItem("Suporte N3", "Link")
-
-				        	
-        	
 
    // Pasta Fale Conosco
 	var FaleConosco = 
