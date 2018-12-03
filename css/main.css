@@ -94,6 +94,10 @@ div#nav-left {
 	color:gray;
 	height:200px;
 	font-size:14px;
+	outline:none;
+}
+#search-input:hover{
+box-shadow: 0px 0px 4px #bdd500;
 }
 
 div#nav-left div.folder {
@@ -207,7 +211,7 @@ div#nav-left div.search-container button.dark {
 	color:#f9f9f9;
 }
 div#nav-left div.search-container button:hover {
-    box-shadow: 0px 0px 3px white;
+    box-shadow: 0px 0px 3px #bdd500;
 }
 div#nav-left div.search-container button:active {
     border-color: red;
