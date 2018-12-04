@@ -27,13 +27,13 @@ $(document).ready(function() {
 				chat.addFolder("Arquivos Fiscais");
 
 					cArqfiscais 
-						.addItem("C.1.1 Ato COTEPE", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/Ato%20Cotepe%2017-04%20-%20Lay-out.pdf")
-						.addItem("C.1.2 Gerar Ato COTEPE", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/Gerar_Ato_Cotep/Gerar_Ato_Cotep.htm")
-						.addItem("C.1.3 Gerar CAT 52", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/Gerar_CAT52/Gerar_Cat52.htm")
-						.addItem("C.1.4 Gerar Sintegra Tipo 60", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/Gerar_Sintegra_tipo60/Gerar_Sintegra.htm")
-						.addItem("C.1.5 Gerar Sped Fiscal", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/Gerar_Sped_Fiscal/Gerar_Sped.htm")
-						.addItem("C.1.6 Gerar XML", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/Gerar_XML/Gerar_XML.htm")
-						.addItem("C.1.7 Aguardando Acerto do Horário ou Desbloqueio pelo Teclado", "http://bookinfo.atento/zs/bematech/Procedimentos/Chat/desbloqueio_pelo_teclado/desbloqueio_pelo_teclado.htm")
+						.addItem("C.1.1 Ato COTEPE", "Procedimentos/Chat/Ato%20Cotepe%2017-04%20-%20Lay-out.pdf")
+						.addItem("C.1.2 Gerar Ato COTEPE", "Procedimentos/Chat/Gerar_Ato_Cotep/Gerar_Ato_Cotep.htm")
+						.addItem("C.1.3 Gerar CAT 52", "Procedimentos/Chat/Gerar_CAT52/Gerar_Cat52.htm")
+						.addItem("C.1.4 Gerar Sintegra Tipo 60", "Procedimentos/Chat/Gerar_Sintegra_tipo60/Gerar_Sintegra.htm")
+						.addItem("C.1.5 Gerar Sped Fiscal", "Procedimentos/Chat/Gerar_Sped_Fiscal/Gerar_Sped.htm")
+						.addItem("C.1.6 Gerar XML", "Procedimentos/Chat/Gerar_XML/Gerar_XML.htm")
+						.addItem("C.1.7 Aguardando Acerto do Horário ou Desbloqueio pelo Teclado", "Procedimentos/Chat/desbloqueio_pelo_teclado/desbloqueio_pelo_teclado.htm")
 
 	    // Pasta E-mail	
 		var email = 
@@ -573,7 +573,7 @@ $(document).ready(function() {
 						.addItem("H.14.1 Especificações Técnicas", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Posgo/posgo_Especificacoes/Especificacoes.htm")
 						.addItem("H.14.2 Troca de Equipamento", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Posgo/posgo_defeito_fisico/defeito.htm")
 				
-			//Pasta terminais de autoatendimento				
+			//Pasta terminaos de autoatendimento				
 			var hTermAuto =
 				Hardware.addFolder("Terminais De Autoatendimento");
 				
@@ -606,8 +606,6 @@ $(document).ready(function() {
 						.addItem("H.16.5 Teste de Impressora", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/SAT/SATFISCAL_Teste_de_Impressora/Teste.htm")
 						.addItem("H.16.6 Treinamento SAT", "http://bookinfo.atento/zs/bematech/momento_Treinamento/SAT/Treinamento%20SAT%20para%20Hardware.pdf")
 				
-
-			
 			
 		// Pasta Multi Skill
 		var Multiskill =
@@ -617,37 +615,149 @@ $(document).ready(function() {
 				Multiskill.addFolder("Abertura de OS");
 				
 					mAberturaOS 
-						.addItem("Nome", "Link");
+						.addItem("M.1.1 Fechamento de O.S Número Lógico", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/OS/numero_logico/Numero_Logico.htm")
+						.addItem("M.1.2 Número Com Defeito", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/OS/Numero_logico_liberado_com_defeito/numero_logico_nao_autorizado.htm")
+						.addItem("M.1.3 Número Lógico Não Autorizado", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/OS/numero_logico_nao_autorizado/numero_logico_nao_autorizado.htm")
+						.addItem("M.1.4 Reinstalação TEF", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/OS/Reinstalacao_TEF/Reinstalacao_TEF.htm")
+						.addItem("M.1.5 Troca de Equipamento com Defeito", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/OS/Troca_equipamento/troca_equipamento.htm")
+
 			//Pasta Dicas						
 			var mDicas =
 				Multiskill.addFolder("Dicas");
 				
 					mDicas 
-						.addItem("Nome", "Link");
+						.addItem("M.2.1 Abertura De Exceção Para Atendimento Via Voz Para Técnicos/Revendedores", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Dicas/Exceção_atendimento_voz_tecnico_revendedores.htm")
+						.addItem("M.2.2 Erro No Sistema De Vendas - Disponibilizar DLL", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Dicas/Erro_no_sistema_de_vendas_disponibilizar_dll.htm")
+						.addItem("M.2.3 Informações Ao Suporte De Sistema De Vendas", "javascript:OpenWindow('multi_skill/Dicas/Informacoes_ao_suporte_sistema_vendas.htm")
+						.addItem("M.2.4 integrador TEF-IP não Executa", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Dicas/integrador_tef_ip_nao_executa.htm")
+						.addItem("M.2.5 Reimpressão de Comprovante", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Dicas/reimpressao_de_comprovante.htm")
+						.addItem("M.2.6 SiTef Hospedado - Licença Expirada", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Dicas/sitef_hosp_licenca.htm")
+						
 			//Pasta Direcionamento N3						
 			var mDirecionamentoN3 =
 				Multiskill.addFolder("Direcionamento N3");
 				
 					mDirecionamentoN3 
-						.addItem("Nome", "Link");
+						.addItem("M.3.1 Reset de senha do Sitef WEB", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/N3/Reset_senha_sitef_web/Reset_senha_sitef_web.htm")
+						.addItem("M.3.2 Disponibilizar Novo Modulo FTP", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/direcionamento/direcionamenton3.htm")
+						.addItem("M.3.3 Empresas Parceiras Solicitam Log, Print Ou Pasta Especifica Por E-Mail", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/direcionamento/direcionamenton3.htm")
+						.addItem("M.3.4 Erro Na Licença ( Softwarehouse )", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/problema_na_lincenca_sh/problema_na_licenca_sh.htm")
+						.addItem("M.3.5 Erro No Fechamento Da Os Troca De Pin Pad Pinpad Não Está Em Produção", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/direcionamento/direcionamenton3.htm")
+						.addItem("M.3.6 Licença Desatualizada", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/direcionamento/direcionamenton3.htm")
+						.addItem("M.3.7 Suporte Que Esgotamos Possibilidade Pelos Parceiros E Procedimentos Do Book", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/direcionamento/direcionamenton3.htm")
+						.addItem("M.3.8 Tef Express Hospedado (Exceto Abertura De Os, Instalação Vpn, Drive Pinpad E Modular)", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/n3/direcionamento/direcionamenton3.htm")
+						
 			//Pasta Express						
 			var mExpress =
 				Multiskill.addFolder("Express");
 				
 					mExpress 
-						.addItem("Nome", "Link");
+						.addItem("M.4.1 Abertura de O.S – Substituição do Pinpad", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Abertura_OS_substituicao_do_pinpad/OS_Pinpad.htm")
+						.addItem("M.4.2 Alelo Auto - Requisitos ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Alelo_auto_requisitos/Alelo_auto_requisitos.htm")
+						.addItem("M.4.3 Atualização SiTef", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/atualizacao_sitef/atualizacao_sitef.htm")
+						.addItem("M.4.4 Atualizar Certificado de Acesso aos Relatórios SiTef Hospedado", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Atualizar_certificado_de_acesso_sitef_hospedado/Atualizar_certificado_de_acesso_sitef_hospedado.htm")
+						.addItem("M.4.5 Atualizar Módulo Stone", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_modulo_stone_circular_atualizar_modulo/atualizar_modulo_stone.htm")
+						.addItem("M.4.6 Bandeira ELO Pela Adquitente GetNet", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Bandeira_elo_getnet/Bandeira_elo_getnet.htm")
+						.addItem("M.4.7 Bandeira ELO Pela Adquitente REDE", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Bandeira_elo_rede/Bandeira_elo_rede.htm")
+						.addItem("M.4.8 Cliente Misterchef", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Cliente_mister_chefe/Cliente_mister_chefe.htm")
+						.addItem("M.4.9 Configuração Combustivel Valecard", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configuracao_combustivel_valecard/Configuracao_combustivel_valecard.htm")
+						.addItem("M.4.10 Configurador Multi Bandeiras", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurador_Multi_Bandeiras/Configurador.htm")
+						
+						.addItem("M.4.11 Configurar Bandeira Good Card No Módulo CardSE", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_Bandeira_Good_Card_no_Modulo_CardSE/Configurar_Bandeira_Good_Card_no_Modulo_CardSE.htm")
+						.addItem("M.4.12 Configurar Módulo Cielo", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_Cielo/Configurar_Cielo.htm")
+						.addItem("M.4.13 Configurar Módulo Coopercred", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_modulo_coopercred/Configurar_modulo_coopercred.htm")
+						.addItem("M.4.14 Configurar Módulo Dacasa", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_modulo_dacasa/Configurar_modulo_dacasa.htm")
+						.addItem("M.4.15 Configurar Módulo DMCARD", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_Modulo_DMCard/Configurar_Dmcard.htm")
+						.addItem("M.4.16 Configurar Módulo GETNET LAC", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_Modulo_GetNet/Configurar_Getnet.htm")
+						.addItem("M.4.17 Configurar Módulo Nutricard", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_Modulo_nutricard/Configurar_Modulo_nutricard.htm")
+						.addItem("M.4.18 Configurar Módulo Resomaq", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_modulo_resomaq_avancard/Configurar_modulo_resomaq_avancard.htm")
+						.addItem("M.4.19 Configurar Módulo Stone", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_modulo_stone/Configurar_modulo_stone.htm")
+						.addItem("M.4.20 Cliente Não Possui Adquirente ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Cliente_nao_possui_adquirente/Cliente_nao_possui_adquirente.htm")
+
+						.addItem("M.4.21 Erro 03 Estab. Inval.", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/erro_03_estab_inval/erro_03_estab_inval.htm")
+						.addItem("M.4.22 Erro B6115", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_B6115/Erro_B6115.htm")
+						.addItem("M.4.23 Erro 16 (Pinpad)", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Pinpad_erro_16/Pinpad_erro_16.htm")
+						.addItem("M.4.24 Erro de Comunicação com o Pinpad", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_comunicacao_com_pinpad/Erro_Pinpad.htm")
+						.addItem("M.4.25 Erro de log - VPN Slim", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_de_log_vpn_slim/Erro_de_log_vpn_slim.htm")
+						.addItem("M.4.26 Erro Dll Controle Geral Sitef Não Encontrada", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_dll_controle_geral_sitef_nao_encontrada/Erro_dll_controle_geral_sitef_nao_encontrada.htm")
+						.addItem("M.4.27 Erro Função Bind: 10013", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_funcao_bind_10013/Erro_funcao_bind_10013.htm")
+						.addItem("M.4.28 Erro VPN - Erro na autenticação do login", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/ERRO_VPN_ERRO_AUTENTICAÇÃO_LOGIN/ERRO_VPN_ERRO_AUTENTICAÇÃO_LOGIN.htm")
+						.addItem("M.4.29 Erro VPN Slim (Comnect) desconectada", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_VPN_Slim_Comnect_desconectada/Erro_VPN_Slim_Comnect_desconectada.htm")
+						.addItem("M.4.30 Erro na atualização da Licença SiTef", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/erro_na_atualizacao_da_licenca_sitef/erro_na_atualizacao_da_licenca_sitef.htm")
+
+						.addItem("M.4.31 Erro - Usuário Não Possui Permissão Para Acessar O CfSitef", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Erro_permissao_para_acessar_cfsitef/erro_permissao_para_acessar_cfsitef.htm")
+						.addItem("M.4.32 Fluxo de Instação TEF e VPN", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Fluxo_de_instacao_tef_e_vpn/Fluxo_de_instacao_tef_e_vpn.htm")
+						.addItem("M.4.33 Início/Fim do horário de verão", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/horario_verao/horario_verao.htm")
+						.addItem("M.4.34 Instalação TEF", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Instalacao_tef/Instalacao_tef.htm")
+						.addItem("M.4.35 Instalação VPN Slim Comnect", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Instalação_VPN_Slim_Comnect/Instalacao_vpn_slim_comnect.htm")
+						.addItem("M.4.36 Migração Sitef 5 para SiTef 6", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/migracao_sitef5_para_sitef6/migracao_sitef5_para_sitef6.htm")
+						.addItem("M.4.37 Modalidade SiTef", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Modalidade_sitef/Modalidade_sitef.htm")
+						.addItem("M.4.38 Novo Arquivo de Licença (6.2.6.0) ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Novo_Arquivo_Licenca_6260/arquivo_licenca.htm")
+						.addItem("M.4.39 Pinpad Verificar Versão ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Pinpad_verificar_versao/Pinpad_versao.htm")
+						.addItem("M.4.40 Reimpressão de Comprovante ( NServices )", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Reimpressao_cupom_Nservices/Reimpressao_cupom_Nservices.htm")
+
+						.addItem("M.4.41 Relatórios STONE", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/relatorio_stone/relatorio_stone.htm")
+						.addItem("M.4.42 Reset Senha Comnect", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/reset_de_senha_comnect/reset_de_senha_comnect.htm")
+						.addItem("M.4.43 Relatório SiTef Local - Consulta e Durabilidade", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/relatorio_sitef_local_consulta_durabilidade/relatorio_sitef_local_consulta_durabilidade.htm")
+						.addItem("M.4.44 Sitef Hospedado - Inclusão De Adquirente", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Sitef%20Hospedado_adição_de_adquirente/Numero_Logico.htm")
+						.addItem("M.4.45 Sitef 6", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Sitef_6/Sitef_6.htm")
+						.addItem("M.4.46 Serviço Indisponível (Carga de Tabelas)", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Servico_indisponivel_carga_de_tabelas/Servico_indisponivel_carga_de_tabelas.htm")
+						.addItem("M.4.47 Serviço Indisponível (Carga de Tabelas BIN)", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Serv_indisp_carga_da_bin/Serv_indisp_carga_da_bin.htm")
+						.addItem("M.4.48 Sitef Fora do Ar", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Sitef_Fora_Do_Ar/Sitef_fora_do_ar.htm")
+						.addItem("M.4.49 Sitef Hospedado - Configurar Client Modular", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/sitef_hosperado_configurar_c_modular/sitef_hosperado_configurar_c_modular.htm")
+						.addItem("M.4.50 Sitef Não Ativo", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Sitef_Nao_Ativo/Sitef_nao_Ativo.htm")
+						
+
+						.addItem("M.4.51 Sitef Não Responde", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/SITEF_nao_responde_sem_comunicacao_com_sitef/SITEF_nao_responde_sem_comunicacao_com_sitef.htm")
+						.addItem("M.4.52 Sitef Não Responde -301", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Sitef_nao_responde_301/Sitef_nao_responde_301.htm")
+						.addItem("M.4.53 Transação Pendente (Sitef Local)", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/transacao_pendente/Terminal_Bloqueado.htm")
+						.addItem("M.4.54 Teste Telnet VPN Slim", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/teste_telnet_vpn_slim/teste_telnet_vpn_slim.htm")
+						.addItem("M.4.55 VPN GSurf - Bandeiras inativas", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/vpn_gsurf_bandeiras_inativas_sitef/vpn_gsurf_bandeiras_inativas_sitef.htm")
+						.addItem("M.4.56 VPN Hospedado – Erro Na Instalação", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/VPN_hospedado_erro_na_instalacao/VPN_hospedado_erro_na_instalacao.htm")
+						.addItem("M.4.57 VPN Hospedado – Erro Na Instalação (Já Existe Outra Versão)", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/VPN_hospedado_erro_na_instalacao/VPN_hospedado_erro_na_instalacao.htm")
+						.addItem("M.4.58 Configurar Módulo SafraPay", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/Express/Configurar_Modulo_safrapay/Configurar_Modulo_safrapay.htm")
+
+						
+						
 			//Pasta Total						
 			var mTotal =
 				Multiskill.addFolder("Total");
 				
 					mTotal 
-						.addItem("Nome", "Link");
+						.addItem("M.5.1 Abertura de O.S – Substituição do Pinpad", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Abertura_OS_substituicao_do_pinpad/OS_Pinpad.htm")
+						.addItem("M.5.2 Cliente Não Possui Adquirente ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Cliente_nao_possui_adquirente/Cliente_nao_possui_adquirente.htm")
+						.addItem("M.5.3 Erro ao Levantar CTF", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Erro_ao_levantar/Erro_ao_levantar.htm")
+						.addItem("M.5.4 Erro Não Disponível E6", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Erro_Nao_Disponivel_E6/Erro_E6.htm")
+						.addItem("M.5.5 Gerenciador Padrão Não Ativo", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Gerenciador_padrao_nao_ativo/Gerenciador_Padrao.htm")
+						.addItem("M.5.6 Instalação TEF DLL", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Instalacao_tef_dll/Instalacao_tef_vpn.htm")
+						.addItem("M.5.7 Instalação TEF HTTPS", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Instalacao_tef_https/Instalacao_tef_https.htm")
+						.addItem("M.5.8 Instalação TEF com VPN", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Instalacao_tef_vpn/Instalacao_tef_vpn.htm")
+						.addItem("M.5.9 Pinpad Verificar Versão ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/total/Pinpad_verificar_versao/Pinpad_versao.htm")
+						
 			//Pasta Turbo					
 			var mTurbo =
 				Multiskill.addFolder("Turbo");
 				
 					mTurbo 
-						.addItem("Nome", "Link");
+						.addItem("M.6.1 Abertura de O.S – Substituição do Pinpad", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Abertura_OS_substituicao_do_pinpad/OS_Pinpad.htm")
+						.addItem("M.6.2 Alterar Modalidade Pay&go Duo para Pay&Go", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Alterar_modalidade_paygoduo_para_paygo/Alterar_modalidade_paygoduo_para_paygo.htm")
+						.addItem("M.6.3 Cliente Não Possui Adquirente ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Cliente_nao_possui_adquirente/Cliente_nao_possui_adquirente.htm")
+						.addItem("M.6.4 Configurar Ticket LOG", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Configurar_Ticket-Log/Configurar_Ticket_log.htm")
+						.addItem("M.6.5 Erro 1004 VPN Tunnel", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/erro_1004_vpn_tunnel/erro_1004_vpn_tunnel.htm")
+						.addItem("M.6.6 Erro 1503", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Erro_1503/Erro_1503.htm")
+						.addItem("M.6.7 Erro 1563", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Erro_1563/Erro_1563.htm")
+						.addItem("M.6.8 Erro 1568", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Erro_1568/Erro_1568.htm")
+						.addItem("M.6.9 Erro de Permissão Instalador Pay&Go", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/erro_de_permissao_paygo/erro_de_permissao_paygo.htm")
+						.addItem("M.6.10 Downgrade Pay&Go", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Downgrade_paygo/Downgrade.htm")
+						
+						.addItem("M.6.11 ID já instalado", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/ID_ja_instalado/ID_ja_instalado.htm")
+						.addItem("M.6.12 Pay&Go Nova Versão", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/pay_go_nova_versao/pay_go_nova_versao.htm")
+						.addItem("M.6.13 Pinpad - Erro de Permissão", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Pinpad_erro_de_permissao/Pinpad_erro_de_permissao.htm")
+						.addItem("M.6.14 Pinpad Verificar Versão ", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/Pinpad_verificar_versao/Pinpad_versao.htm")
+						.addItem("M.6.15 REDE 88", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/rede_88/rede_88.htm")
+						.addItem("M.6.16 Solicitação de dados para instalação", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/solicitacao_de_dados_para_instalacao/solicitacao_de_dados_para_instalacao.htm")
+						.addItem("M.6.17 Zerar Instalação", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/zerar_instalacao/zerar_instalacao.htm")
+						.addItem("M.6.18 VPN Não Instalada", "http://bookinfo.atento/zs/bematech/Procedimentos/multi_skill/turbo/vpn_nao_instalada/vpn_nao_instalada.htm")
 
 	
 		// Pasta SAT
@@ -659,14 +769,31 @@ $(document).ready(function() {
 				Sat.addFolder("Assuntos Regulatórios");
 				
 					sAssuntosreg 
-						.addItem("Nome", "Link");
+						.addItem("Nome", "Link")
 						
 			//Pasta Básico
 			var sBemacashBasico =
 				Sat.addFolder("Bemacash Básico");
 				
 					sBemacashBasico 
-						.addItem("Nome", "Link");
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
 						
 			//Pasta Bemacash NFCe						
 			var sBemacashNFCe =
@@ -687,23 +814,105 @@ $(document).ready(function() {
 				Sat.addFolder("Cliente Final");
 				
 					sClienteFinal 
-						.addItem("Nome", "Link");
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
 						
 			//Pasta Desenvolvedores						
 			var sDesenvolvedores =
 				Sat.addFolder("Desenvolvedores");
 				
 					sDesenvolvedores 
-						.addItem("Nome", "Link");
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
 						
 			//Pasta	Legislação
 			var sLegislacao =
 				Sat.addFolder("Legislação");
 				
 					sLegislacao 
-						.addItem("Nome", "Link");
-						
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
 
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						.addItem("Nome", "Link")
+						
 				
 		// Pasta TEF
 		var Tef =
@@ -744,6 +953,24 @@ $(document).ready(function() {
 					tSimples 
 						.addItem("Nome", "Link");
 						
+   // Pasta Backoffice
+	var Backoffice = 
+        	menu.addFolder("Backoffice");
+        					
+			Backoffice 
+				.addItem("Atraso de O.S", "Link")
+				.addItem("Cancelamento de O.S", "Link")
+				.addItem("Cliente Corporativos", "Link")			
+				.addItem("Exceções TEF", "Link")      	
+				.addItem("Exceções TEF Cancelamento", "Link")
+				.addItem("Exceções SAC", "Link")
+				.addItem("Exceções SAT", "Link")
+				.addItem("Reclamações", "Link")
+				.addItem("SAC Corporate", "Link")
+				.addItem("Suporte N3", "Link")
+
+				        	
+        	
 
    // Pasta Fale Conosco
 	var FaleConosco = 
@@ -810,9 +1037,11 @@ $(document).ready(function() {
 				.addItem("Qualidade", "Link")
 				.addItem("NPS", "Link")
 				.addItem("Escalada", "Link")				
-				.addItem("Telefones", "Link")
-				.addItem("Treinamentos", "Link")
-				.addItem("Aniversáriantes", "Link")
+
+	menu 
+		.addItem("Telefones", "Link")
+		.addItem("Treinamentos", "Link")
+		.addItem("Aniversáriantes", "Link")
 
 
 
