@@ -1,4 +1,4 @@
-var menu;
+﻿var menu;
 
 $(document).ready(function() {
  
@@ -405,6 +405,9 @@ $(document).ready(function() {
 						.addItem("H.10.80 Software DP-20 Plus - Windows Vista / Seven", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Impressoras_nao_fiscais/Software_DP20_windowns_vista_seven/Impressoras_nao_fiscais.htm")
 						
 						.addItem("H.10.81 DP-20 Impressão de Cheques pré-datados, sem emitir o cheque de entada (data Atual)", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Impressoras_nao_fiscais/DP-20_impressao_de_cheques_predatados_sem_emitir_entrada/Impressoras_Nao_Fiscais.htm")
+						.addItem("H.10.82 MP2800 TH - Especificações Técnicas", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Impressoras_nao_fiscais/MP-2800_TH_especificacoes/solicitacao.htm")
+						.addItem("H.10.83 MP2800 TH - Instalação em Rede", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Impressoras_nao_fiscais/MP-2800_TH_instalacao_rede/solicitacao.htm")
+						.addItem("H.10.84 MP2800 TH - Instalação via USB ou Serial", "http://bookinfo.atento/zs/bematech/Procedimentos/Hardware/Impressoras_nao_fiscais/MP-2800_TH_instalacao_usb/instalacao.htm")
 
 
 			//Pasta	KDS		
@@ -769,149 +772,203 @@ $(document).ready(function() {
 				Sat.addFolder("Assuntos Regulatórios");
 				
 					sAssuntosreg 
-						.addItem("Nome", "Link")
+						.addItem("S.1.1Assuntos Regulatórios", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Assuntos_Regulatórios/Assuntos.htm")
 						
 			//Pasta Básico
 			var sBemacashBasico =
 				Sat.addFolder("Bemacash Básico");
 				
 					sBemacashBasico 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.2.1 Aplicativo Android", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Aplicativo_Android/Aplicativo_Android.htm")
+						.addItem("S.2.2 Ativação de Caixas Registradoras", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Ativação%20de%20Caixas%20Registradoras/Ativacao_caixas_registradoras.htm")
+						.addItem("S.2.3 Composição de Produtos", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Composição_Produtos/Composicao_de_Produtos.htm")
+						.addItem("S.2.4 Configurações Hardware", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Configurações_hardware/configuracao_hardware.htm")
+						.addItem("S.2.5 Configurações de Loja", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Configuracoes_Loja/Configuracoes_de_Loja.htm")
+						.addItem("S.2.6 Configurar Grupos de Impostos", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Grupos_Impostos/Bemacash_Grupos_Impostos.htm")
+						.addItem("S.2.7 Departamentos e categorias", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Departamentos_Categorias/Bemacash_departamentos_categorias.htm")
+						.addItem("S.2.8 Gerenciamento de Código de Barras", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Gerenciamento_Codigo_Barras/Gerenciamento_de_Codigo_de_Barras.htm")
+						.addItem("S.2.9 Gerenciamento de Inventário", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Gerenciamento_Inventario/Gerenciamento_de_Inventario.htm")
+						.addItem("S.2.10 Importar Banco de Dados", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Importar_Banco_de_Dados/Importar_banco_de_dados.htm")
 						
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.2.11 Inventário Secundário", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Inventário_Secundário/Inventario_Secundario.htm")
+						.addItem("S.2.12 Módulo de Compra", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Modulo_Compra/Modulo_Compra.htm")
+						.addItem("S.2.13 Notificações de Estoque", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Notificações_Estoque/Notificacoes_Itens_Estoque.htm")
+						.addItem("S.2.14 Painel de Controle Web", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Painel_Controle/Bemacash_Painel_Controle.htm")
+						.addItem("S.2.15 Portal Revendedor", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Portal_Revendedor_WEB/Bemacash_Portal_Revendedor_WEB.htm")
+						.addItem("S.2.16 Produtos em Grade", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Produtos_Grade/produtos_em_grade.htm")
+						.addItem("S.2.17 Requisitos", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_Basico/Bemacash_Requisitos/Requesitos.htm")
 						
 			//Pasta Bemacash NFCe						
 			var sBemacashNFCe =
 				Sat.addFolder("Bemacash NFCe");
 				
 					sBemacashNFCe 
-						.addItem("Nome", "Link");
+						.addItem("S.3.1 Acrescentar um Desconto ao Subtotal ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Acrescentar_um_Desconto_Subtotal/Acrescentar_um_Desconto_Subtotal.htm")
+						.addItem("S.3.2 Aplicativo Android ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Aplicativo_Android/Bemacash_Aplicativo_Android.htm")
+						.addItem("S.3.3 Arquivos de Clientes e Funcionários ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Arquivos_de_Clientes_e_Funcionarios/Arquivos_de_Clientes_e_Funcionarios.htm")
+						.addItem("S.3.4 Ativação de Caixas Registradoras ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Ativação%20de%20Caixas%20Registradoras/Bemacash_Ativação%20de%20Caixas%20Registradoras.htm")
+						.addItem("S.3.5 Certificado ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Certificado/Certificado.htm")
+						.addItem("S.3.6 Composição de Produtos ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Composição_Produtos/Bemacash_Composição_Produtos.htm")
+						.addItem("S.3.7 Configurações de Hardware ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Configurações_hardware/configuracao_hardware.htm")
+						.addItem("S.3.8 Configuração de Hardware Alteranativo - Impressoras", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Configuracao_de_Hardware_Alteranativo_Impressoras/Configuracao_hardware_alternativo.htm")
+						.addItem("S.3.9 Configurações de Loja ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Configuracoes_Loja/Configuracoes_de_Loja.htm")
+						.addItem("S.3.10 Configuração Fiscal Manager - NFC-e", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Configuracao_Fiscal_Manager_NFC-e/Configuracao_fiscal_manager_nfce.htm")
+
+						.addItem("S.3.11 Configuração Fiscal Manager - SAT", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Configuracao_Fiscal_Manager_SAT/Configuracao_Fiscal_Manager_SAT.htm")
+						.addItem("S.3.12 Configurar Funções de Hardware", "Link")
+						.addItem("S.3.13 Configurar Grupos de Impostos ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Grupos_Impostos/Bemacash_Grupos_Impostos.htm")
+						.addItem("S.3.14 Configurar Impressoras Auxiliares ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Configurar_Impressoras_Auxiliares/Configuracao_Impressoras_Auxiliares.htm")
+						.addItem("S.3.15 Contingência ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Contingencia/Contingencia.htm")
+						.addItem("S.3.16 Departamentos e Categorias ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Departamentos_Categorias/Bemacash_departamentos_categorias.htm")
+						.addItem("S.3.17 Devoluções a partir do Histórico de Vendas", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Devolucoes_a_partir_do_histórico_de_vendas/Devolucoes_a_partir_do_histórico_de_vendas.htm")
+						.addItem("S.3.18 Encomendar seu Hardware On Line", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Encomendar_Hardware_On_Line/Encomendar_Hardware_Online.htm")
+						.addItem("S.3.19 Envio de Cupons por E-mail", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Envio_de_Cupons_por_E-mail/Envio_de_Cupons_por_E-mail.htm")
+						.addItem("S.3.20 Exclusão de Itens, Alteração na Quantidade de Produtos e Acréscimo de Descontos ", "Link")
+
+						.addItem("S.3.21 Exclusão de um Item do Banco de Dados ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Exclusao_de_um_Item_do_Banco_de_Dados/Exclusao_de_um_Item_do_Banco_de_Dados.htm")
+						.addItem("S.3.22 Gerenciamento de Clientes", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Gerenciamento_Cliente/Gerenciamento_de_Clientes.htm")
+						.addItem("S.3.23 Gerenciamento de Código de Barras", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Gerenciamento_Codigo_Barras/Gerenciamento_de_Codigo_de_Barras.htm")
+						.addItem("S.3.24 Gerenciamento de Inventario ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Gerenciamento_Inventario/Gerenciamento_de_Inventario.htm")
+						.addItem("S.3.25 Histórico de Transações e Vendas", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Historico_Transações_Vendas/Historico_de_Transacoes.htm")
+						.addItem("S.3.26 Importar Banco de Dados", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Importar_Banco_de_Dados/Importar_banco_de_dados.htm")
+						.addItem("S.3.27 Impressão", "link")
+						.addItem("S.3.28 Inventário Secundário ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Inventário_Secundário/Inventario_Secundario.htm")
+						.addItem("S.3.29 Meios de Pagamentos - Pagamentos em Dinheiro e Cartões de Crédito", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Pagamentos_em_dinheiro_e_cartoes_de_credito/Pagamentos_em_dinheiro_e_cartoes_de_credito.htm")
+						.addItem("S.3.30 Módulo de Estoque, Modificadores e Ajuste da Quantidade Disponível em Estoque ", "Link")
+
+						.addItem("S.3.31 Módulo Registrador (Compra) ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Modulo_registrador_compra/Modulo_registrador_compra.htm")
+						.addItem("S.3.32 Módulo de Relatórios: Relatório Resumido de Vendas e Geração da Folha de Pagamento ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Modulo_de_Relatorios/Modulo_de_Relatorios.htm")
+						.addItem("S.3.33 Notificações de Estoque ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Notificações_Estoque/Notificacoes_Itens_Estoque.htm")
+						.addItem("S.3.34 Operação com Modificadores", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Operacao_com_modificadores/Operacao_com_modificadores.htm")
+						.addItem("S.3.35 Operação sem Vendas, Saques e Pagamentos a Outros ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Operacao_sem_vendas_saques_e_pagamentos_a_outros/Operacao_sem_vendas_saques_e_pagamentos_a_outros.htm")
+						.addItem("S.3.36 Ordem de Compras ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Ordem_Compra/Ordem_Compra.htm")
+						.addItem("S.3.37 Outros Tipos de Pagamentos: Operação com Crédito na Loja e Pagamento Por Vários Meios ", "Link")
+						.addItem("S.3.38 Painel de Controle Web ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Painel_Controle/Bemacash_Painel_Controle.htm")
+						.addItem("S.3.39 Pedido em Espera e Invalidação de Pedidos ", "Link")
+						.addItem("S.3.40 Portal Revendedor WEB ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Portal_Revendedor_WEB/Bemacash_Portal_Revendedor_WEB.htm")
+
+						.addItem("S.3.41 Produtos em Grade ", "Link")
+						.addItem("S.3.42 Relatórios via WEB ", "Link")
+						.addItem("S.3.43 Requisitos ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_Requisitos/Requesitos.htm")
+						.addItem("S.3.44 Relatório de Notas ", "Link")
+						.addItem("S.3.45 SEFAZ ", "Link")
+						.addItem("S.3.46 SPED Geração de Arquivo de Escrituração ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Bemacash_NFCe_SAT/Bemacash_SPED_Geracao_Arquivo_Escrituração/Geracao_Arquivo_Escrituracao.htm")
+						.addItem("S.3.47 Tributos de Vendas ", "Link")
+						.addItem("S.3.48 Troca de Operadores de Caixa ", "Link")
+						.addItem("S.3.49 Venda de Item com Captura de Atendimento Rápido ", "Link")
+						.addItem("S.3.50 Venda de Item com Captura na Visualização de Varejo", "Link")
+
 						
 			//Pasta Atualizações					
 			var sAtualizacoes =
 				Sat.addFolder("Atualizações");
 				
 					sAtualizacoes 
-						.addItem("Nome", "Link");
+						.addItem("S.4.1 Atualizações SAT", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Atualizacoes/Atualizacoes_SAT/Atualizacoes.htm")
 						
 			//Pasta Cliente Final					
 			var sClienteFinal =
 				Sat.addFolder("Cliente Final");
 				
 					sClienteFinal 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.5.1 0800 Atendimento ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_0800_Atendimento/0800.htm")
+						.addItem("S.5.2 Abertura de OS - Cliente Corporativo SAT", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/Abertura_de_OS_SAT/Abertura_OS.htm")
+						.addItem("S.5.3 Alteração de Dados Cadastrais", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Alteracao_dados_cadastrais/Alteracao.htm")
+						.addItem("S.5.4 Arquivo XML", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Arquivo_XML/XML.htm")
+						.addItem("S.5.5 Ativação Associação ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Ativacao_associacao/Ativacao.htm")
+						.addItem("S.5.6 Ativação De Equipamentos Fabricados Até Maio/2017 ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_ativacao_equip_maio_17/ativacao_equipamentos_fabricados_maio_17.htm")
+						.addItem("S.5.7 Atualização RB-1000 e RB-2000 ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Atualizacao_RB1000_FI/Ativacao.htm")
+						.addItem("S.5.8 Bloqueio Autônomo", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Bloqueio_Autonomo/Bloqueio.htm")
+						.addItem("S.5.9 Bloqueio SEFAZ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Bloqueio_SEFAZ/Bloqueio_SEFAZ.htm")
+						.addItem("S.5.10 Cliente Corporativo - Direcionamento Hardware", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Cliente_Corporativo_Direcionamento_Hardware/Cliente_Corporativo.htm")
 						
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.5.11 Cliente SAT Remoto", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Cliente_Sat_Remoto/Sat_Remoto.htm")
+						.addItem("S.5.12 Configuração de Rede", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Configuracao_de_Rede/Configuracao_de_Rede.htm")
+						.addItem("S.5.13 Desativação SAT Fiscal", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Desativacao_SAT/Desativacao.htm")
+						.addItem("S.5.14 Desativação SAT Fiscal - Bloqueio SEFAZ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Desativacao/Desativacao.htm")
+						.addItem("S.5.15 Devolução De Equipamento - RMA", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_devolucao_de_equipamento_rma/devolucao.htm")
+						.addItem("S.5.16 Direcionamento à Desenvolvedores", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Direcionamento_Desenvolvedor/Desenvolvedor.htm")
+						.addItem("S.5.17 Encaminamento para o Setor Interno ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_encaminhamento_interno/encaminhamento_interno.htm")
+						.addItem("S.5.18 Erro 06099 - Erro na Leitura Segura do Arquivo no Disco", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_06099/Erro_%2006099.htm")
+						.addItem("S.5.19 Erro ao Associar Assinatura", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_ao_Associar_Assinatura/Erro_ao_Associar_Assinatura.htm")
+						.addItem("S.5.20 Erro ao Passar Vendas", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_ao_Passar_Vendas/Erro_ao_Passar_Vendas.htm")
 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.5.21 Erro ao Registrar Sessão", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_ao_registrar_sessao/Erro_ao_Registrar_Sessao.htm")
+						.addItem("S.5.22 Erro de Comunicação com a SEFAZ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_de_Comunicacao_com_a_SEFAZ/Erro_Comunicacao.htm")
+						.addItem("S.5.23 Erro de Envio por Contingência", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_envio_por_contingencia/Contingencia.htm")
+						.addItem("S.5.24 Erro Database disk image is malformed", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_database_disk/erro_database.htm")
+						.addItem("S.5.25 Erro de Validação de Conteúdo", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_de_Validacao_Conteudo/Erro_Validacao.htm")
+						.addItem("S.5.26 Erro na Abertura da Porta de Comunicação com o SAT e/ou Bossa com port ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_Porta_de_Comunicacao/Configurar_Porta.htm")
+						.addItem("S.5.27 Erro na Abertura da Porta de Comunicação com o SAT - Windows 8 e 10", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_na_Abertura_de_Porta_Windows/Erro_Abertura_de_Porta.htm")
+						.addItem("S.5.28 Erro no Relógio", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_no_Relogio/Erro_Relogio.htm")
+						.addItem("S.5.29 Erro no Teste Fim a Fim", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Erro_Teste_Fim_a_Fim/Teste_fim_a_fim.htm")
+						.addItem("S.5.30 Especificações de Uso ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Especificacoes_de_Uso/Ativacao.htm")
 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.5.31 Especificações Técnicas", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Especificacoes_Tecnicas/Especificacoes.htm")
+						.addItem("S.5.32 Identificar Código de Ativação", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_identificar_cod_ativacao/identificar_cod_ativacao.htm")
+						.addItem("S.5.33 Instalação", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Instalacao/Instalacao.htm")
+						.addItem("S.5.34 Led CFE", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_led_cfe/led_cfe.htm")
+						.addItem("S.5.35 Leds Informativos", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Leds_informativos/0800.htm")
+						.addItem("S.5.36 Log de Status", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Logs_status/log_status.htm")
+						.addItem("S.5.37 Lote em Processamento", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Lote_em_processamento/Lote_em_processamento.htm")
+						.addItem("S.5.38 Lote Inválido", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Lote_Invalido/Lote_Invalido.htm")
+						.addItem("S.5.39 Obrigatoriedade", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Obrigatoriedade/Obrigatoriedade.htm")
+						.addItem("S.5.40 Projeto Ativação - SAT Fiscal", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Projeto_Ativação/Ativacao.htm")
 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.5.41 RB2000 - Driver WIN10 (Assinatura Digital)", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/RB2000_driver_win10/rb2000_driver.htm")
+						.addItem("S.5.42 SAT Fiscal RB-2000 ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_RB2000/Ativacao.htm")
+						.addItem("S.5.43 Software de Ativação - Especificações ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Software_Ativacao/Ativacao.htm")
+						.addItem("S.5.44 Solicitar Laudo", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_solicitar_laudo/solicitar_laudo.htm")
+						.addItem("S.5.45 Suporte ao Fiscal Manager", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Fiscal_Manager/Fiscal_Manager.htm")
+						.addItem("S.5.46 Reset Código de Ativação", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Reset_Codigo_Ativacao/Sat_Reset_Codigo_Ativacao.htm")
+						.addItem("S.5.47 Tabela de Erros ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Tabelas_de_Erros/Ativacao.htm")
+						.addItem("S.5.48 Telas de Informações SAT", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Telas_%20de_%20Informacoes_SAT/Ativacao.htm")
+						.addItem("S.5.49 Teste de Impressora", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Teste_de_Impressora/Teste.htm")
+						.addItem("S.5.50 Projeto Ativação - Corporativo ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Cliente_Final/SATFISCAL_Projeto_Ativação_corporativo/Projeto_Ativação_corporativo.htm")
 						
 			//Pasta Desenvolvedores						
 			var sDesenvolvedores =
 				Sat.addFolder("Desenvolvedores");
 				
 					sDesenvolvedores 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.6.1 Ativação Associação", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Satfiscal_Desenvolvedores/SATFISCAL_Ativacao_associacao/Ativacao.htm")
+						.addItem("S.6.2 Convênio ICMS 85/01 - Requisitos Para Desenvolvimento De Equipamento Emissor De Cupom Fiscal", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/Satfiscal_Desenvolvedores/requisitos_de_equipamento/convenio_icms_85-01.pdf")
 						
 			//Pasta	Legislação
 			var sLegislacao =
 				Sat.addFolder("Legislação");
 				
 					sLegislacao 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.7.1 Arquitetura SAT ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Arquitetura_SAT/Arquitetura_SAT.htm")
+						.addItem("S.7.2 Atos COTEPE / ICMS 2013 - SAT RJ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/ato_copete_icms_2013_rj/Convenio.htm")
+						.addItem("S.7.3 Convênio 156/94 - 85/01 - 09/09 Impressoras e Acessórios ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Convênio%20156_94_85_01_09_09_Impressoras_Acessórios/Convenio.htm")
+						.addItem("S.7.4 Convênio 85/01 09/09 o que muda? ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Convenio_85_01_09_09_o_que_muda/Convenio.htm")
+						.addItem("S.7.5 Especificações Técnicas do SAT ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Especificacoes_Tecnicas_SAT/Especificacoes.htm")
+						.addItem("S.7.6 ICMS 09/09 - Configurações / Conectividade ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/ICMS_09_09_Configurações_Conectividade/Convenio.htm")
+						.addItem("S.7.7 ICMS 09/09 - Integração de Softwares ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/ICMS_09_09_Integração_Software/Integracao.htm")
+						.addItem("S.7.8 ICMS 09/09 Tecnologias", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/ICMS_09_09_Tecnologias/Tecnologias.htm")
+						.addItem("S.7.9 Legislação Comprovante Débito / Crédito", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislação_Comprovante_Debito_Credito/Integracao.htm")
+						.addItem("S.7.10 Legislação Convênio 09/09 ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacão_Convenio_09_09/Convenio.htm")
 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.7.11 Legislação Convênio 156/94 ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Convenio_156_94/Convenio.htm")
+						.addItem("S.7.12 Legislação Convênio 85/01", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Convenio_85_01/Convenio.htm")
+						.addItem("S.7.13 Legislação Cupom Fiscal ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Cupom_Fiscal/CupomFiscal.htm")
+						.addItem("S.7.14 Legislação Leitura X ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Leitura_X/LeituraX.htm")
+						.addItem("S.7.15 Legislação Recebimento Não Fiscal ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Recebimento_Não_Fiscal/Recebimento.htm")
+						.addItem("S.7.16 Legislação Redução Z ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Reducao_Z/ReducaoZ.htm")
+						.addItem("S.7.17 Legislação Relatório Gerencial ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislação_Relatório_Gerencial/Gerencial.htm")
+						.addItem("S.7.18 Legislação Suprimento Sangria", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislação_Suprimento_Sangria/Sangria.htm")
+						.addItem("S.7.19 Legislação Tabelas Contadores ", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Legislacao_Tabelas_Contadores/Convenio.htm")
+						.addItem("S.7.20 Portaria SAT-147 ( SAT de Contingência )", "http://bookinfo.atento/zs/bematech/Procedimentos/SAT/SatFiscal_Legislação/Portaria_CAT_147_2012_sat_contigencia/portaria.htm")
 
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
-						.addItem("Nome", "Link")
+						.addItem("S.7.21 Terminologia Alíquotas ", "Link")
+						.addItem("S.7.22 Terminologia Leitura X / Redução Z ", "Link")
+						.addItem("S.7.23 Terminologia Meios Pagamentos", "Link")
+						.addItem("S.7.24 Terminologia Memória Fiscal ", "Link")
+						.addItem("S.7.25 Terminologia Memória Fita Detalhe", "Link")
+						.addItem("S.7.26 Terminologia Suprimento / Sangria ", "Link")
+						.addItem("S.7.27 Terminologia Totalizador Geral / Totalizador Não Fiscal ", "Link")
+						.addItem("S.7.28 Terminologia Venda Bruta / Venda Liquida", "Link")
 						
 				
 		// Pasta TEF
