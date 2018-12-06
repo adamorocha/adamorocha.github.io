@@ -1,4 +1,4 @@
-var menu;
+﻿var menu;
 
 $(document).ready(function() {
  
