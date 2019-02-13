@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    margin: 0px 0px 0px 25%;
+    margin: 0px 0px 0px 340px;
     height: 100%;
     font-family: 'Poppins', sans-serif;
     background-position: right top;
@@ -39,7 +39,7 @@ div#nav-left {
     top: 0;
     bottom: 0;
     right: auto;
-    width: 25%;
+    width: 340px;
     background-color:#444;
     background-repeat: repeat;
     background-size: cover;
@@ -49,7 +49,7 @@ div#nav-left {
 }
 
 .hideMenu div#nav-left {
-    left: -25%;
+    left: -340px;
 }
 
 #menu-toggle {
